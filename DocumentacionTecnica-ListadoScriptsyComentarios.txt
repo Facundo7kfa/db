@@ -1,0 +1,12 @@
+Para la creacion de la base de datos de TUNE:
+Los archivos sql tienen que ir en el siguiente orden.
+
+00. -Creacion_tablas:con este script se crean las tablas por en ende el esquema.
+01. - Data_insertion:con este script se ingresan los datos.
+02. -Vistas:con este archivo se crean las vistas necesarias.
+03. -Funciones: con este archivo se crean las funciones.
+04. -Stored:con este archivo se generan los Stored Procedures.
+05. -Triggers: este archivo crea los triggers y las tablas de Log.
+06. -DCL:con este se generan los usuarios.
+07. - TCL:este achivo tiene lenguaje de control transaccional.
+08. -Backup: este archivo tiene el backup del schema y estructura d datos.
